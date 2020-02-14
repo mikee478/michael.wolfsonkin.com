@@ -1,16 +1,112 @@
 html,
-body,
-header,
-#intro {
+body {
     height: 100%;
+	margin: 0px;
 }
 
-#intro {
-    background: url(../img/background/stonybrook.jpg)no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    filter: brightness(100%);
-    filter: contrast(100%);
+.sbu-image
+{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/stonybrook.jpg");
+	z-index: -1;
+	background-size: cover;
+	background-position: 0px -100px;
+	background-repeat: no-repeat;
+}
+
+.grid-overlay
+{
+	height: 100%; 
+    background-image: url("../images/03.png");
+  	/*border: 3px solid yellow;*/
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+.intro-container
+{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	width: 50%;
+  	/*border: 3px solid green;*/
+}
+
+.intro-name
+{
+	font-family: Roboto-Bold;
+	text-align: center;
+  	color: white;
+  	font-size: 55pt;
+}
+
+.intro-divider
+{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px; 
+}
+
+.intro-text
+{
+	font-family: Roboto-Light;
+	text-align: center;
+  	color: white;
+  	font-size: 28px;
+}
+
+.intro-resume-button-container
+{
+	position: absolute;
+	width: 100%;
+  	text-align: center;
+  	/*border: 3px solid green;*/
+}
+
+.intro-resume-button
+{
+	font-family: Roboto-Regular;
+	margin-top: 20px;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	padding: 12px 36px;
+	font-size: 13px;
+	transition-duration: .4s;
+	cursor: pointer;
+}
+
+.intro-resume-button:hover 
+{
+	background-color: white;
+	color: black;
+}
+
+.footer
+{
+	position: static;
+	background-color: white;
+  	/*border: 3px solid red;*/
+}
+
+.bio-container
+{
+	position: relative;
+	text-align: center;
+  	/*border: 3px solid green;*/
 }
