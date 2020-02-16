@@ -98,14 +98,39 @@ body {
 
 .footer
 {
-	position: static;
 	background-color: white;
-  	/*border: 3px solid red;*/
+  	/*border: 3px solid green;*/
 }
 
 .bio-container
 {
-	position: relative;
+	padding: 20px;
 	text-align: center;
+}
+
+.bio-title
+{
+	font-family: Roboto-Bold;
+	font-size: 23pt;
+  	/*border: 1px solid black;*/
+  	position: relative;
+  	width: 14%;
+  	left: 43%;
+}
+
+.bio-divider
+{
+	position: relative;
+	width: 15%;
+	color: black;
+	background-color: black;
+}
+.bio-text
+{	
+	/*padding: 10px;*/
   	/*border: 3px solid green;*/
+	font-family: Roboto-Light;
+	font-size: 18pt;
+	padding-top: 10px;
+	padding-bottom: 25px;
 }
