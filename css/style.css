@@ -138,7 +138,7 @@ body {
 	padding-bottom: 25px;
 }
 
-.images-container
+.interests-container
 {
 	position: relative;
 	left: 12.5%;
@@ -151,14 +151,14 @@ body {
   	padding-bottom: 50px;
 }
 
-.robotics-container
+.single-interest-container
 {
   	/*border: 3px solid green;*/
   	text-align: center;
   	display: inline-block;
 }
 
-.robotics-image
+.interest-image
 {
 	width: 150px;
 	height: 150px;
@@ -167,28 +167,7 @@ body {
   	/*border: 3px solid green;*/
 }
 
-.robotics-text
-{
-	font-family: Roboto-Light;
-	font-size: 16pt;
-}
-
-.compprog-container
-{
-  	/*border: 3px solid green;*/
-  	text-align: center;
-  	display: inline-block;}
-
-.compprog-image
-{
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	box-shadow: 0px 0px 5px 1px;
-  	/*border: 3px solid green;*/
-}
-
-.compprog-text
+.interest-text
 {
 	font-family: Roboto-Light;
 	font-size: 16pt;
