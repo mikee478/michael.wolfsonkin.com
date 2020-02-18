@@ -100,7 +100,7 @@ body {
 {
 	background-color: white;
   	/*border: 3px solid green;*/
-  	background-image: radial-gradient(transparent 50%, rgba(128,128,128,0.375) 100%);
+  	background-image: radial-gradient(transparent 50%, rgba(128,128,128,0.5) 100%);
 }
 
 .bio-container
@@ -160,8 +160,8 @@ body {
 
 .robotics-image
 {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	box-shadow: 0px 0px 5px 1px;
   	/*border: 3px solid green;*/
@@ -181,8 +181,8 @@ body {
 
 .compprog-image
 {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	box-shadow: 0px 0px 5px 1px;
   	/*border: 3px solid green;*/
