@@ -114,14 +114,14 @@ body {
 	font-size: 23pt;
   	/*border: 1px solid black;*/
   	position: relative;
-  	width: 14%;
-  	left: 43%;
+  	/*width: 150px;*/
 }
 
 .bio-divider
 {
 	position: relative;
-	width: 15%;
+	/*width: 15%;*/
+	width: 225px;
 	color: black;
 	background-color: black;
 }
@@ -136,4 +136,20 @@ body {
 	font-size: 14pt;
 	padding-top: 10px;
 	padding-bottom: 25px;
+}
+
+.images-container
+{
+	padding: 20px;
+	text-align: center;
+  	border: 3px solid green;
+}
+
+.robotics-image
+{
+	height: 10%;
+	width: 10%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 3px 0px;
+  	border: 3px solid green;
 }
