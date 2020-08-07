@@ -3,53 +3,53 @@
 <head>
 	<title>Michael Wolf-Sonkin</title>
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/intro.css">
+	<link rel="stylesheet" type="text/css" href="./css/scroll-down-arrow.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-
 <body>
-	<div class="sbu-image">
-	</div>
-
-	<div class="grid-overlay">
-		<div class="intro-container">
-			<div class="intro-name">Michael Wolf-Sonkin</div>
-			<hr class="intro-divider">
-			<div class="intro-text">Computer Science Student and Software Engineer</div>
-			<div class="intro-resume-button-container">
-				<button class="intro-resume-button" type="button" onclick="window.open('./resources/michael-wolf-sonkin-resume.pdf', '_blank');">
+	<div id="sbu-image"></div>
+	<div id="grid-overlay">
+		<div id="intro-container">
+			<div id="intro-name">Michael Wolf-Sonkin</div>
+			<hr id="intro-divider">
+			<div id="intro-text">Computer Science Student and Software Engineer</div>
+			<div id="intro-resume-button-container">
+				<button id="intro-resume-button" type="button" onclick="window.open('./resources/michael-wolf-sonkin-resume.pdf', '_blank');">
 					VIEW RESUME
 				</button>
 			</div>
 		</div>
-	</div>
-
-	<div class="footer">
-		<div class="bio-container">
-			<div class="bio-title">
-				About Me
-			</div>
-			<hr class="bio-divider">
-			<div class="bio-text">
-				I am an experienced software engineer with a demonstrated history working in the aerospace and semiconductor industries. I am currently working towards a Bachelor of Science focused in Computer Science and Applied Mathematics from Stony Brook University. In my free time, I am a software mentor for non-profit high school level robotics team where we design, build, and program a 120 pound robot to compete against other teams around the world. I also enjoy rock climbing, cycling, and solving Rubik's Cubes. 
+		<div id="scroll-down-arrow-container">
+			<div id="scroll-down-arrow" onclick="$('html, body').animate({scrollTop: $('#footer').offset().top}, 750)">
 			</div>
 		</div>
-		<div class="interests-container">
-
+	</div>
+	<div id="footer">
+		<div id="bio-container">
+			<div id="bio-title">
+				About Me
+			</div>
+			<hr id="bio-divider">
+			<div id="bio-text">
+				I am an experienced software engineer with a demonstrated history working in the aerospace and semiconductor industries. I am currently working towards a Bachelor of Science focused in Computer Science and Applied Mathematics from Stony Brook University. In my free time, I mentor a non-profit high school level robotics team where students design, build, and program a 120 lb robot to compete against other teams around the world. I also enjoy rock climbing, cycling, and solving Rubik's Cubes. 
+			</div>
+		</div>
+		<div id="interests-container">
 			<a class="single-interest-container link-style" href="https://team7400.org" target="_blank">
 				<img src="./images/first.jpg" class="interest-image">
 				<div class="interest-text">
 					FIRST Robotics<br>Software Mentor
 				</div>
 			</a>
-
 			<a class="single-interest-container link-style" href="https://stonybrook.campuslabs.com/engage/organization/compprog" target="_blank">
 				<img src="./images/compprog.png" class="interest-image">
 				<div class="interest-text">
 					SBU Competitive<br>Programming Team
 				</div>
 			</a>
-
 		</div>
 	</div>
 </body>
-
 </html>
