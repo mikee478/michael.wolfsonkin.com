@@ -28,7 +28,7 @@ body {
 	background-image: url("../images/stonybrook.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	filter: brightness(60%);
+	filter: brightness(50%);
 	background-position: center;
 }
 
