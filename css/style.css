@@ -24,14 +24,19 @@ body {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background-image: url("../images/stonybrook.jpg");
 	z-index: -1;
+	background-image: url("../images/stonybrook.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	filter: brightness(60%);
 }
 
 #grid-overlay
 {
 	height: 100%; 
-	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.avoid-wrap 
+{ 
+	display:inline-block;
 }
