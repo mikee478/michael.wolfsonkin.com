@@ -1,5 +1,4 @@
-#scroll-down-arrow-container
-{
+#scroll-down-arrow-container {
   position:absolute;
   width:56px;
   height:56px;
@@ -8,7 +7,7 @@
   left:50%;
 }
 
-#scroll-down-arrow{
+#scroll-down-arrow {
   position: relative;
   width: 80%;
   height: 80%;

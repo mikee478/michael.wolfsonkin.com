@@ -5,7 +5,7 @@
 $(document).keydown(function(event) 
 {
 	if (event.ctrlKey && 
-	   (event.which == '61'  || 
+		(event.which == '61'  || 
 		event.which == '107' ||
 		event.which == '173' || 
 		event.which == '109' || 

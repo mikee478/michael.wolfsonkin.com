@@ -1,42 +1,36 @@
-#intro-container
-{
+#intro-container {
 	position: absolute;
 	top: 20%;
 	left: 10%;
 	width: 80%;
 }
 
-#intro-name
-{
+#intro-name {
 	font-family: Roboto-Bold;
 	text-align: center;
 	color: white;
 	font-size: 55pt;
 }
 
-#intro-divider
-{
+#intro-divider {
 	width: 62.5%;
 	margin-top: 10px;
 	margin-bottom: 20px; 
 }
 
-#intro-text
-{
+#intro-text {
 	font-family: Roboto-Light;
 	text-align: center;
 	color: white;
 	font-size: 28px;
 }
 
-#intro-resume-button-container
-{
+#intro-resume-button-container {
 	width: 100%;
 	text-align: center;
 }
 
-#intro-resume-button
-{
+#intro-resume-button {
 	font-family: Roboto-Regular;
 	margin-top: 20px;
 	background-color: transparent;
@@ -48,8 +42,7 @@
 	cursor: pointer;
 }
 
-#intro-resume-button:hover 
-{
+#intro-resume-button:hover  {
 	background-color: white;
 	color: black;
 }

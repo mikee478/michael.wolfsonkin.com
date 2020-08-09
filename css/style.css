@@ -19,24 +19,23 @@ body {
 	margin: 0px;
 }
 
-#sbu-image
-{
+#sbu-image {
 	position: fixed;
-	height: 100%;
+	height: 100vh;  /*Use vh as a fallback for browsers that do not support Custom Properties */
+	height: calc(var(--vh, 1vh) * 100);
 	width: 100%;
 	z-index: -1;
 	background-image: url("../images/stonybrook.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	filter: brightness(60%);
 	background-position: center;
 }
 
-#grid-overlay
-{
+#grid-overlay {
 	height: 100%; 
 }
 
-.avoid-wrap 
-{ 
+.avoid-wrap { 
 	display:inline-block;
 }

@@ -1,32 +1,27 @@
-#footer
-{
+#footer {
 	background-color: white;
 	background-image: radial-gradient(transparent 50%, rgba(128,128,128,0.5) 100%);
 }
 
-#bio-container
-{
+#bio-container {
 	padding: 20px;
 	text-align: center;
 }
 
-#bio-title
-{
+#bio-title {
 	font-family: Roboto-Bold;
 	font-size: 23pt;
 	position: relative;
 }
 
-#bio-divider
-{
+#bio-divider {
 	position: relative;
 	width: 225px;
 	color: black;
 	background-color: black;
 }
 
-#bio-text
-{	
+#bio-text {	
 	font-family: Roboto-Light;
 	position: relative;
 	width: 70%;
@@ -36,8 +31,7 @@
 	padding-bottom: 25px;
 }
 
-#interests-container
-{
+#interests-container {
 	position: relative;
 	left: 12.5%;
 	width: 75%;
@@ -46,22 +40,19 @@
 	padding-bottom: 50px;
 }
 
-.single-interest-container
-{
+.single-interest-container {
 	text-align: center;
 	display: inline-block;
 }
 
-.interest-image
-{
+.interest-image {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
 	box-shadow: 0px 0px 5px 1px;
 }
 
-.interest-text
-{
+.interest-text {
 	font-family: Roboto-Light;
 	font-size: 16pt;
 }
