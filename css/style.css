@@ -26,9 +26,9 @@ body {
 	width: 100%;
 	z-index: -1;
 	background-image: url("../images/stonybrook.jpg");
-	background-size: cover;
 	background-repeat: no-repeat;
 	filter: brightness(60%);
+	background-position: center;
 }
 
 #grid-overlay
