@@ -10,7 +10,7 @@
 
 #bio-title {
 	font-family: Roboto-Bold;
-	font-size: 23pt;
+	font-size: 24pt;
 	position: relative;
 }
 
@@ -22,13 +22,13 @@
 }
 
 #bio-text {	
-	font-family: Roboto-Light;
 	position: relative;
-	width: 70%;
-	left: 15%;
-	font-size: 14pt;
+	width: 90%;
+	left: 5%;
 	padding-top: 10px;
 	padding-bottom: 25px;
+	font-family: Roboto-Light;
+	font-size: 22pt;
 }
 
 #interests-container {
@@ -54,7 +54,7 @@
 
 .interest-text {
 	font-family: Roboto-Light;
-	font-size: 16pt;
+	font-size: 22pt;
 }
 
 .link-style:link {
