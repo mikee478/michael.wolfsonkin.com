@@ -29,7 +29,7 @@ body {
 	height: calc(var(--vh, 1vh) * 100);
 	width: 100%;
 	z-index: -1;
-	background-image: url("../images/stonybrook.jpg");
+	background-image: url("../images/columbia.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	filter: brightness(50%);
